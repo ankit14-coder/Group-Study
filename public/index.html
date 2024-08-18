@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-header">
+
+            <h1><i class="fas fa-book-reader"></i> Group Study</h1>
+
+        </div>
+        <div class="login-main">
+            <form action="chat.html">
+                <div class="form-elem">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username..." required>
+                </div>
+
+                <!-- <div class="form-elem">
+                    <label for="passwrd">Password</label>
+                    <input type="password" name="password" id="password">
+                </div> -->
+                <div class="form-elem">
+                    <label for="rooms">Groups to Join</label>
+                    <select name="room" id="room">
+                        <option value="CP">CP</option>
+                        <option value="WebDev">WebDev</option>
+                        <option value="OS">OS</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Join</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

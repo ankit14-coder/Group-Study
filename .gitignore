@@ -1,0 +1,3 @@
+
+# Excluding node_mudules from git
+/node_modules
