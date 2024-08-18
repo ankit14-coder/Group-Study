@@ -21,33 +21,9 @@
                 <h3>Room Name</h3>
                 <h2 id="room-name">CP</h2>
                 <h3 class="group-users"></h3>
-                <ul id="users">
-                    <li>Ankit</li>
-                    <li>Ankit</li>
-                    <li>Ankit</li>
-                    <li>Ankit</li>
-                    <li>Ankit</li>
-
-                </ul>
+                <ul id="users"></ul>
             </div>
-            <div class="chat-message">
-                <div class="message">
-                    <p class="meta">Ankit <span>12:01 AM</span></p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, excepturi.</p>
-                </div>
-                <div class="message">
-                    <p class="meta">Ankit <span>12:01 AM</span></p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, excepturi.</p>
-                </div>
-                <div class="message">
-                    <p class="meta">Ankit <span>12:01 AM</span></p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, excepturi.</p>
-                </div>
-                <div class="message">
-                    <p class="meta">Ankit <span>12:01 AM</span></p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, excepturi.</p>
-                </div>
-            </div>
+            <div class="chat-message"></div>
 
         </main>
         <div class="chat-form">
@@ -58,8 +34,14 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.13.0/qs.min.js" integrity="sha512-LGi3LadLxI4NfDCsvTQ+Ps8dmV3PK7QUNFMEPyqpfFI78fu9YUXPRRVHIOH9xS5OLz035SSTH2Mc2Tzau+l7BA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="js/main.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "socket.io-client": "https://cdn.socket.io/4.7.5/socket.io.esm.min.js"
+          }
+        }
+      </script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
