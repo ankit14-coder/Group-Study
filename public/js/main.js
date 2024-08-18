@@ -2,7 +2,7 @@ const chatForm = document.getElementById('chat-form');
 const chatMessages = document.querySelector('.chat-message');
 const roomName = document.getElementById('room-name');
 const userList = document.getElementById('users');
-import { io } from "socket.io-client";
+import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
 
 
 // Get username and room from URL
